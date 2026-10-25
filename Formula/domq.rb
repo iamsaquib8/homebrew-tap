@@ -3,28 +3,28 @@
 class Domq < Formula
   desc "Query HTML with CSS selectors: elements, attributes, text, Markdown or JSON"
   homepage "https://github.com/iamsaquib8/domq"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/iamsaquib8/domq/releases/download/v#{version}/domq-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "72394cf318cf2e5e2821ed70ab5feb740f931cb0799f628b352718e61d3e33ac"
+      sha256 "39ed5b8905650bc5356cbeb8e55a48e9f3a1d8ce77d142749924121b5ae5f364"
     end
     on_intel do
       url "https://github.com/iamsaquib8/domq/releases/download/v#{version}/domq-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d28fa7663c48aac5e77762c9a8ad6307a2560bedba679c4eca1767257914ec5c"
+      sha256 "7c849578d7123f74c5f9f77e707e0d259b107a9825f94323baae2a5311053b72"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/iamsaquib8/domq/releases/download/v#{version}/domq-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "78ee0ef58b8a08f62b5d7bb826c1f1ebcc727005bcab7f8be18bd03bafa42d82"
+      sha256 "018de959b4f7b0f9e533f3ad128563c0ac00fa8e7d833c7a1bc3402df4d6234e"
     end
     on_intel do
       url "https://github.com/iamsaquib8/domq/releases/download/v#{version}/domq-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "067af5da06916a3aad0f60cf30931eee3c1e9bc194dbbd81afa6649be9b92c04"
+      sha256 "3a1240c18a79e978d6820a333b6a229aa93c255dca3c75d2435a17fa70eb99d9"
     end
   end
 
